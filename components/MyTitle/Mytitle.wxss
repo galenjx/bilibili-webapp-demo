@@ -1,0 +1,45 @@
+.my_title{
+  display: flex;
+  align-items: center;
+  padding: 10rpx;
+  background-color: #fff
+}
+.logo{
+  flex: 7
+}
+.search_icon{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center
+  /* 水平与垂直居中 */
+}
+.user_icon{
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.dowm_app{
+  flex: 3;
+  font-size: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  color: #fff;
+  border-radius: 10rpx;
+  padding: 10rpx
+}
+.logo image{
+  width: 140rpx;
+  height: 60rpx
+}
+.search_icon image{
+  width: 50rpx;
+  height: 50rpx
+}
+.user_icon image{
+  width: 54rpx;
+  height: 60rpx
+}

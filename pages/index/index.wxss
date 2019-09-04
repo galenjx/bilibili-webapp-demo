@@ -1,0 +1,80 @@
+Page{
+  color: #666;
+  padding: 10rpx
+}
+
+
+/* nav */
+.nav{
+  white-space: nowrap;
+  /* 文本不会换行，文本会在在同一行上继续，直到遇到 <br> 标签为止。 */
+  padding: 5rpx 0;
+}
+.nav_item{
+  padding: 20rpx 45rpx;
+  font-size: 35rpx;
+  display: inline-block
+}
+.nav_item.active{
+  border-bottom: 5px solid #de688b; 
+}
+
+
+/* swiper */
+.slides{
+  /* margin-top: 10rpx */
+}
+.slides swiper{
+  height: 220rpx
+}
+.slides navigator{
+  width: 100%;
+  height: 100%
+}
+.slides image{
+  width: 100%;
+  height: 100%
+}
+
+
+/* video */
+.video_wrap{
+  display: flex;
+  flex-wrap: wrap;
+  /* 规定灵活的项目在必要的时候拆行或拆列。 */
+  padding: 5rpx;
+  justify-content: space-around;
+  /* 项目位于各行之前、之间、之后都留有空白的容器内 */
+}
+.video_item{
+  width: 48%;
+  margin-bottom: 20rpx
+}
+.video_img{
+  position: relative
+}
+.video_img image{
+  width: 100%;
+  border-radius: 15rpx
+}
+.video_img .video_info{
+  position: absolute;
+  left: 0;
+  bottom: 10rpx;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 24rpx
+}
+.video_wrap .video_title{
+  font-size: 28rpx;
+    display: -webkit-box;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    /* 文字最多几行 */
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}

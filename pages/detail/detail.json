@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "detail",
+  "usingComponents": {
+    "MyTitle": "../../components/MyTitle/Mytitle"
+  }
+}
