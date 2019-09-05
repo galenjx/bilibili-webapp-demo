@@ -21,6 +21,10 @@ Page{
 
 
 /* swiper */
+.tab{
+   height: calc(100vh - 220rpx);
+   /* 表示整个浏览器窗口高度减去220rpx的大小,不可以用100%，父盒子没有高度 */
+}
 .slides{
   /* margin-top: 10rpx */
 }

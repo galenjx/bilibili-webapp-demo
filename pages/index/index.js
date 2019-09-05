@@ -21,6 +21,13 @@ Page({
     })
   },
 
+  // 屏幕滑动事件
+  swiperSlide(e){
+    // console.log(e)
+    this.setData({
+      currentIndexNav:e.detail.current
+    })
+  },
   // 获取导航栏数据
   getNavLists(){
     let that=this;
