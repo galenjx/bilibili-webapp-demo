@@ -59,3 +59,51 @@
   font-size: 26rpx;
   color:#666;
 }
+
+/* 评论列表 */
+.comment_wrap{
+  margin-top: 10rpx
+}
+.comment_title{
+  padding: 10rpx;
+  font-size: 20rpx
+}
+.comment_item{
+  border-bottom: 1px solid #666;
+  margin-top: 10rpx;
+  padding: 10rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.comment_user{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comment_user image{
+  width: 60%;
+  border-radius: 50%
+}
+.comment_info{
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around
+}
+.comment_detail{
+  display: flex;
+  justify-content: space-between
+}
+.comment_detail .comment_author{
+  font-size: 28rpx;
+  color: #000
+}
+.comment_detail .comment_date{
+  font-size: 24rpx;
+  color: #666
+}
+.comment_content{
+  font-size: 25rpx;
+  color: #666
+}
