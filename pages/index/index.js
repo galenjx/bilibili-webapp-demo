@@ -44,6 +44,8 @@ Page({
     })
   },
 
+
+
   // 获取轮播图
   getSwiperLists(){
     let that=this;
